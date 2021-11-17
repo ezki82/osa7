@@ -1,0 +1,74 @@
+  :root {
+    --hsyVaaleaTurkoosi: #64c3cd;
+    --hsyKeskiTurkoosi: #00aaa3;
+    --hsyTummaTurkoosi: #007377;
+    --hsyMusta: #2c2a29;
+    --hsyPinkki: #d8318a;
+    --hsyPunainen: #bd3429;
+    --hsyTummanOranssi: #be4d00;
+    --hsyOranssi: #ea7600;
+    --hsyKeltainen: #f9d800;
+    --hsyRuskea: #4e3629;
+    --hsyTummanVihrea: #006431;
+    --hsyKeskiVihrea: #009f4d;
+    --hsyVaaleanVihrea: #74aa50;
+    --hsyVioletti: #814494;
+    --hsyTummanSininen: #006aa7;
+    --hsyVaaleanSininen: #9bcbeb;
+  }
+
+  body {
+    background-color: var(--hsyKeskiTurkoosi);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .h1 {
+    color: green;
+    font-style: italic;
+  }
+
+  .button {
+    color: var(--hsyTummaTurkoosi);
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+
+  .input {
+    border-radius: 5px;
+  }
+  
+  .form {
+    background-color: var(--hsyKeskiTurkoosi);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+
+  .info {
+    color: rgb(0, 160, 0);
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .link {
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .navbar {
+    background:var(--hsyKeskiTurkoosi);
+    padding: 5px
+  }
